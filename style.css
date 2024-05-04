@@ -1,0 +1,110 @@
+/*Fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif; /*ligação de fonte */
+}
+
+:root{
+  --color-div:#000000;
+  --color-link: #449B90;
+  --color-caixa: #f5f5f5;
+  --color-borda: #D5D5D5;
+}
+
+body{
+  color: var(--color-caixa);
+  color: var(--color-div);
+  text-align: center;
+}
+
+img{
+  width: 190px;
+  
+}
+
+div{
+  border: 1px solid transparent;
+  padding: 50px; /*Aqui temos uma margem interna de 50 pixels*/
+  background-color: var(--color-caixa);
+  box-shadow: 0 0 1px 1px #808080;
+
+}
+
+.navegacao{
+  background-color: #808080; /* Cor de fundo da barra de navegação */
+  color: #fff; /* Cor do texto da barra de navegação */
+  padding: 2px 0px; /* Espaçamento interno da barra de navegação */
+  width: 100%; /* Largura total */
+  position: fixed; /* Fixa a barra de navegação no topo */
+  top: 0; /* Posiciona a barra de navegação no topo */
+  left: 0; /* Alinha a barra de navegação à esquerda */
+  z-index: 999; /* Garante que a barra de navegação esteja acima de outros elementos */
+}
+
+.compra{
+  text-decoration: none;
+  color: #ffff;
+  background-color: #49B970;
+  margin: 15px;
+  margin-bottom: 25px;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+.secao-um{
+  padding: 50px;
+}
+
+p{
+  font-size: 16px;
+  margin: 15px 30px;
+  height: 70px;
+}
+
+h1,h2,h3{
+  font-size: 18px;
+  
+    margin-bottom: 20px; /* Adiciona espaço abaixo do elemento */
+  
+  
+}
+
+span{
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
+
+.compra{
+  
+    line-height: 5; /* Duplica o espaçamento entre as linhas de texto */
+ 
+  
+}
+
+i{
+  color: #fff;
+  margin: 15px;
+  padding: 15px;
+}
+
+i:hover{
+  border-radius: 50px;
+  box-shadow:0 0 1rem 1rem #49B970;
+  background-color: #49B970;
+}
+
+.compra:hover{
+  box-shadow:0 0 1rem 1rem #49B970;
+  background-color: #49B970;
+}
+
+
+
+
